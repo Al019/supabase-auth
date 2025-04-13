@@ -15,7 +15,7 @@ function RouteComponent() {
 
   return (
     <div>
-      <button onClick={login}>Sign in with Google</button>
+      <button onClick={login} className='bg-blue-500 p-2 rounded-lg text-white font-medium'>Sign in with Google</button>
     </div>
   )
 }
